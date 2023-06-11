@@ -1,0 +1,105 @@
+{% load static %}
+<html>
+	<head>
+		<title>Contact</title>
+	</head>
+	<body >
+		<table align="center" width="80%">
+			<tr>
+				<td>
+					<img src="{% static 'img/1.jpg' %}" width="1000" height="100">
+				</td>
+			</tr>
+		</table>
+		<table align="center" width="80%" height="8%" border="0">
+			<tr >
+				<th>
+					<a href="/home">Home</a>
+				</th>
+				<th>
+					<a href="/about">About</a>
+				</th>
+				<th>
+					<a href="/academic">Academic</a>
+				</th>
+				<th>
+					<a href="/gallery">Gallery</a>
+				</th>
+				<th>
+					<a href="/contact">Contact</a>
+				</th>
+		</table>
+		<table align="center" width="80%">
+			<tr>
+				<td align="left">
+					<img src="{% static 'img/4.jpg' %}" width="150" height="700">
+				</td>
+				<td align="center" width="100%">
+					<center>
+						<h1>Contact me</h1>						
+					</center>
+					<form>
+						<table>
+							<tr>
+								<td>
+									Name
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input size="40" type="text" placeholder="Type your name">
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Email
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input size="40"  type="text" placeholder="Type your email">
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Website
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input size="40"  type="text" placeholder="Type your website">
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Comment
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<textarea rows="10" cols="40">
+									
+									</textarea>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input type="button" value="Submit">
+									<input type="reset" value="Reset">
+								</td>
+							</tr>
+						</table>
+					</form>					
+				</td>
+				<td align="right">
+					<img src="{% static 'img/5.jpg' %}" width="150" height="700">
+				</td>
+			</tr>
+		</table>
+		<table  align="center" width="80%" height="10%" >
+			<tr>
+				<th >www.mysite.com</th>
+			</tr>
+		</table>
+	</body>
+</html>
